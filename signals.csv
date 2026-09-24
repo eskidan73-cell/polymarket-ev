@@ -5,3 +5,4 @@ ts,market_id,question,venue,market_price,fair_prob,edge,resolved,outcome
 2026-09-22T09:25:39.175351+00:00,4052417,"Will Bitcoin reach $90,000 in September?",PM_vs_KXBTCMAXMON,0.4205,0.4272,-0.0044,,
 2026-09-22T09:25:39.175890+00:00,4052418,"Will Bitcoin reach $87,500 in September?",PM_vs_KXBTCMAXMON,0.745,0.699,-0.0805,,
 2026-09-22T09:25:41.130256+00:00,4052448,"Will Ethereum reach $3,000 in September?",PM_vs_KXETHMAXMON,0.245,0.2574,0.0297,,
+2026-09-24T12:01:28.066436+00:00,951180,"Ethereum all time high by September 30, 2026?",PM_vs_KXETHMAXMON,0.0015,0.0198,11.9373,,
