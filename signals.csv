@@ -18,4 +18,4 @@ ts,market_id,question,venue,market_price,fair_prob,edge,resolved,outcome
 2026-10-01T15:30:45.256290+00:00,5170733,"Will Bitcoin reach $92,500 in October?",PM_vs_KXBTCMAXMON,0.345,0.3704,0.0521,,
 2026-10-01T15:30:45.256340+00:00,5170734,"Will Bitcoin reach $90,000 in October?",PM_vs_KXBTCMAXMON,0.495,0.4907,-0.0284,,
 2026-10-01T15:30:45.256389+00:00,5170735,"Will Bitcoin reach $87,500 in October?",PM_vs_KXBTCMAXMON,0.685,0.7048,0.0083,,
-2026-10-01T15:30:45.256444+00:00,5170736,"Will Bitcoin reach $85,000 in October?",PM_vs_KXBTCMAXMON,0.8655,0.8509,-0.0366,,
+2026-10-01T15:30:45.256444+00:00,5170736,"Will Bitcoin reach $85,000 in October?",PM_vs_KXBTCMAXMON,0.8655,0.8509,-0.0366,yes,1
