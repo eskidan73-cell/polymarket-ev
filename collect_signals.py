@@ -32,6 +32,12 @@ SOURCES = [
 MIN_SIM = 0.3
 MAX_DATE_DIFF_HOURS = 6.0
 
+# Отсечка мусора: edge считается относительно цены, поэтому на копеечных
+# рынках (цена < 2 цента) даже шум даёт сотни процентов, а >100% почти всегда
+# значит ложное совпадение пары (разные вопросы с одним fair_prob), а не ценность.
+MIN_PRICE = 0.02
+MAX_EDGE = 1.0
+
 
 def already_logged_ids() -> set:
     if not os.path.exists(backtest.LOG):
@@ -62,6 +68,10 @@ def collect():
             if p["id"] in logged:
                 continue
             ce = cross_edge(p, k)
+            if p["yes"] < MIN_PRICE or abs(ce["val_edge_pm"]) > MAX_EDGE:
+                print(f"skipped (cutoff): {p['question'][:55]} "
+                      f"(price={p['yes']:.3f} edge={ce['val_edge_pm']*100:+.1f}%)")
+                continue
             backtest.log_signal(
                 market_id=p["id"],
                 question=p["question"],
