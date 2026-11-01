@@ -28,3 +28,4 @@ ts,market_id,question,venue,market_price,fair_prob,edge,resolved,outcome
 2026-11-01T20:38:24.347523+00:00,6507377,"Will Bitcoin reach $82,500 in November?",PM_vs_KXBTCMAXMON,0.575,0.5686,-0.0309,,
 2026-11-01T20:38:24.347545+00:00,6507378,"Will Bitcoin reach $80,000 in November?",PM_vs_KXBTCMAXMON,0.77,0.7379,-0.0609,,
 2026-11-01T20:38:24.864907+00:00,6507405,"Will Ethereum reach $3,000 in November?",PM_vs_KXETHMAXMON,0.055,0.0857,0.5273,,
+2026-11-01T23:59:14.656171+00:00,6507371,"Will Bitcoin reach $97,500 in November?",PM_vs_KXBTCMAXMON,0.0435,0.0792,0.7845,,
